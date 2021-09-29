@@ -1,0 +1,231 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920__1;
+	--web-scale-on-resize: 100%;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+
+:root {
+	--web-view-ids: Web_1920__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+#Web_1920__1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920__1;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+#medio {
+	fill: rgba(118,195,188,1);
+}
+.medio {
+	position: absolute;
+	overflow: visible;
+	width: 120rem;
+	height: 8.4375rem;
+	left: 0px;
+	top: 945px;
+}
+#encabezado {
+	fill: rgba(219,53,65,1);
+}
+.encabezado {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#ingresa {
+	position: absolute;
+	width: 71px;
+	height: 31px;
+	left: 1786px;
+	top: 27px;
+	overflow: visible;
+	transition: all 1s ease-out;
+	--web-animation: fadein 1s ease-out;
+	--web-action-type: page;
+	--web-action-target: Sign_In.html;
+	cursor: pointer;
+}
+#Ingresa_l {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 31px;
+	text-align: left;
+	font-family: bebas neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255,255,255,1);
+}
+#crea_tu_cuenta {
+	position: absolute;
+	width: 177px;
+	height: 31px;
+	left: 1573px;
+	top: 27px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Sign_Up.html;
+	cursor: pointer;
+}
+#Crea_tu_cuenta_n {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	height: 31px;
+	text-align: left;
+	font-family: bebas neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	color: rgba(255,255,255,1);
+}
+#Trazado_2 {
+	fill: rgba(245,245,245,1);
+}
+.Trazado_2 {
+	overflow: visible;
+	position: absolute;
+	width: 22px;
+	height: 1px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,155,12) rotate(180deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#logo_Mesa_de_trabajo_1 {
+	position: absolute;
+	width: 82px;
+	height: 78px;
+	left: 66px;
+	top: 3px;
+	overflow: visible;
+}
+#logo_Mesa_de_trabajo_1_q {
+	position: absolute;
+	width: 82px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Enmascarar_grupo_1 {
+	position: absolute;
+	width: 1920px;
+	height: 861px;
+	left: 0px;
+	top: 84px;
+	overflow: visible;
+}
+#BIENVENIDO_A_WARMYS_ {
+	filter: drop-shadow(0px 5px 6px rgba(15, 6, 6, 0.38));
+	left: 559px;
+	top: 361px;
+	position: absolute;
+	overflow: visible;
+	width: 803px;
+	height: 108px;
+	text-align: left;
+	font-family:bebas neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 90px;
+	color: rgba(10,46,62,1);
+}
+#Tejiendo_memoria_colectiva {
+	left: 742px;
+	top: 455px;
+	position: absolute;
+	overflow: visible;
+	width: 438px;
+	height: 54px;
+	text-align: left;
+	font-family: bebas neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(10,46,62,1);
+}
+#redes_Mesa_de_trabajo_1 {
+	position: absolute;
+	width: 59px;
+	height: 69px;
+	left: 834px;
+	top: 986px;
+	overflow: visible;
+}
+#redes_Mesa_de_trabajo_1_v {
+	position: absolute;
+	width: 59px;
+	height: 57px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#redes-02 {
+	position: absolute;
+	width: 57px;
+	height: 67px;
+	left: 933px;
+	top: 988px;
+	overflow: visible;
+}
+#redes-02_x {
+	position: absolute;
+	width: 57px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#redes-03 {
+	position: absolute;
+	width: 57px;
+	height: 67px;
+	left: 1030px;
+	top: 988px;
+	overflow: visible;
+}
+#redes-03_z {
+	position: absolute;
+	width: 57px;
+	height: 55px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
