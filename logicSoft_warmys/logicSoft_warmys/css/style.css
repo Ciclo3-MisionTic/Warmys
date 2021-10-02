@@ -20,12 +20,13 @@ nav{
 
 a{
     text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    font-family: fantasy;
+    font-size: 28px;
+    color: #ffffff;
 }
 
 li:hover a{
-    color: black;
+    color:#ffffff;
 }
 
 header{
