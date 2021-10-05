@@ -1,0 +1,41 @@
+body{
+    background-color: tomato;
+    box-sizing: 500px;
+}
+
+#idVenta{
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    opacity: 40%;
+    border: none;
+    
+}
+#valorVenta{
+    border-radius: 8px;
+}
+#idProducto{
+
+}
+#cantProducto{
+
+}
+#precioUniProducto{
+
+}
+#fechaVenta{
+
+}
+#docIdentificacion{
+
+}
+#nombreCliente{
+
+}
+
+
+header{
+    background-color: turquoise;
+    
+}
