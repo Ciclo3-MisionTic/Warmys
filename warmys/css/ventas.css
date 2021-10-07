@@ -18,15 +18,23 @@ body{
 
 h1{
     text-align: center;
-     margin-top: 10px 0;
-     font-weight: 600;
+    margin-top: 10px 0;
+    font-weight: 600;
+    color: indianred;
 
 }
 
 form{
     background: #ffffff;
-    width: 35%;
-    padding: 15px 0;
+    max-width: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 30px;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
 }
@@ -40,16 +48,93 @@ form{
 
 }
 
-form .grupo{
-    position: relative;
-    margin: 10px;
+.grupo{
+    margin-top: 20%;
+    margin-left: 0%;
 }
 
 input{
     background: none;
-    color: #c6c6c6;
+    color: #690759;
     padding: 10px 10px 10px 5px;
     display: block;
-    width: 100%;
+    width: max-content;
+    margin-left: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+
+  
+
+}
+
+.grupo ,
+.label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 10%;
+    margin-top: 40px;
+    color: var(--colortextos);
+    font-size: 16px;
+    left: 5px;
+    transition: 0.3s ease all;
+}
+
+
+input:focus~label, input:valid~label{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #CB3066;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+
+input:focus~.barra::before{
+    width: 40%;
+}
+
+.barra{
+    position: absolute;
+    display: block;
+    width: 30%;
+}
+
+.barra::before{
+    content: "";
+    height: 5px;
+    width: 0;
+    bottom: 0%;
+    position: absolute;
+    background: linear-gradient(to right, #CB3066, #006c94);
+    transition: 0.3s ease all;
+    margin-left: 15px;
+}
+
+input:focus{
+    outline: none;
+    color: cornflowerblue;
+}
+
+button{
+    background: firebrick;
+    background: linear-gradient(to right, #CB3066, #006c94);
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: floralwhite;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: rgba(82, 82, 87, 0.315);
+    font-family: cursive;
+  }
+
+
+  
