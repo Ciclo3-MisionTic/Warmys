@@ -9,19 +9,47 @@ body{
     background: #16BFFD; 
     background: -webkit-linear-gradient(to right, #CB3066, #16BFFD); 
     background: linear-gradient(to right, #CB3066, #006c94);
+    font-family: "poppins"sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+     margin-top: 10px 0;
+     font-weight: 600;
+
+}
+
+form{
+    background: #ffffff;
+    width: 35%;
+    padding: 15px 0;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+
+.form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: center;
     
 
 }
 
-#form{
-    position: absolute;
-    min width: 280px;
-    max-width: 25px;
-    width: 25%;
-    top: 50%;
-    left: 50%
+form .grupo{
+    position: relative;
+    margin: 10px;
+}
 
-
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 4);
-
+input{
+    background: none;
+    color: #c6c6c6;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    
 }
