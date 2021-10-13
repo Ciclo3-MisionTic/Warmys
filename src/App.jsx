@@ -1,31 +1,29 @@
 import './App.css';
+import "bootstrap/dist/css/bootstrap-grid.min.css";
 
 
 function App() {
   return (
     <div className="App">
-      <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="images/banner2.jpg">
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <div class="container"> 
-      
-      <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" alt="FoxPro"  width="60px"/></a> 
-      
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
-      
-      
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#">Hogar</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#about-us">Acerca de</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Cursos</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#contact">Contacto</a> </li>
+      <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="src\banner2.jpg">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container"> 
+        <a class="navbar-brand mr-auto" href="/#"><img src="images/logo.png" alt="FoxPro"  width="60px"/></a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+          
+          
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="/#">Hogar</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#about-us">Acerca de</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/#">Cursos</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#contact">Contacto</a> </li>
+          </ul>
+          <ul class="navbar-nav ml-5">
         </ul>
-        <ul class="navbar-nav ml-5">
-      </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   <div class="container">
     <div class="fh5co-banner-text-box">
       <div class="quote-box pl-5 pr-5 wow bounceInRight">
