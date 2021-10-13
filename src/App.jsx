@@ -1,17 +1,32 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap-grid.min.css";
+import "./css/animate.css";
+import "./css/bootstrap-grid.css";
+import "./css/bootstrap-grid.css.map";
+import "./css/bootstrap-grid.min.css";
+import "./css/bootstrap-grid.min.css.map";
+import "./css/bootstrap-reboot.css";
+import "./css/bootstrap-reboot.css.map";
+import "./css/bootstrap-reboot.min.css";
+import "./css/bootstrap-reboot.min.css.map";
+import "./css/bootstrap.css";
+import "./css/bootstrap.css.map";
+import "./css/bootstrap.min.css";
+import "./css/bootstrap.min.css.map";
+import "bootstrap/dist/css/bootstrap.min.css";
+import banner2 from "./images/banner2.jpg";
+import azul from "./images/about-us-bg.jpg";
 
 
 function App() {
   return (
     <div className="App">
-      <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="src\banner2.jpg">
+
+    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src={banner2}>
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container"> 
         <a class="navbar-brand mr-auto" href="/#"><img src="images/logo.png" alt="FoxPro"  width="60px"/></a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
-          
-          
+           
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"> <a class="nav-link" href="/#">Hogar</a> </li>
@@ -24,6 +39,8 @@ function App() {
         </div>
       </div>
     </nav>
+    </div>
+
   <div class="container">
     <div class="fh5co-banner-text-box">
       <div class="quote-box pl-5 pr-5 wow bounceInRight">
@@ -31,7 +48,7 @@ function App() {
       </div>
       <a href="login.html" class="btn text-uppercase btn-outline-danger btn-lg mr-3 mb-3 wow bounceInUp"> INGRESA</a></div>
   </div>
-  </div>
+  
 
   <div class="container-fluid fh5co-network">
   <div class="container">
@@ -52,7 +69,7 @@ function App() {
 </div>
 
 
-<div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src="images/about-us-bg.jpg">
+<div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src={azul}>
   <div class="container">
     <div class="col-sm-6 offset-sm-6">
       <h2 class="wow bounceInLeft" data-wow-delay=".25s">ABOUT US</h2>
@@ -194,8 +211,8 @@ function App() {
 
 
 
-      
-    </div>
+</div>
+    
   );
 }
 

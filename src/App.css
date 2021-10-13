@@ -77,7 +77,7 @@ a, a:hover {
   width: 38px;
   left: 0;
   top: 0;
-  background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg);
+  background: url("./images/right-quote.png");
   background-repeat: no-repeat;
 }
 
@@ -96,7 +96,7 @@ a, a:hover {
 }
 
 .fh5co-network, .fh5co-about-us {
-  background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg);
+  background: url("./images/about-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -130,6 +130,7 @@ a, a:hover {
   margin-left: 0;
   border-radius: 5px;
 }
+
 .fh5co-network figure, .fh5co-about-us figure {
   text-align: center;
 }
@@ -183,7 +184,7 @@ a, a:hover {
   position: relative;
   padding: 50px 0;
   margin: 70px 0;
-  background-image: image("../images/gym2.jpg");
+  background: url("./images/gym2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #000;
@@ -233,7 +234,7 @@ a, a:hover {
   width: 20px;
   left: 0;
   top: -10px;
-  background-image: image("../images/right-quote-white.png");
+  background: url("./images/right-quote-white.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -243,13 +244,12 @@ a, a:hover {
   position: absolute;
   height: 20px;
   width: 20px;
-  background-image: image("../images/left-quote-white.png");
+  background: url("./images/left-quote-white.png");
   background-repeat: no-repeat;
   right: 0;
   bottom: -10px;
   background-size: 100% 100%;
 }
-
 
 .fh5co-content-box .trainers::before, .fh5co-content-box .trainers::after {
   content: "";
@@ -258,6 +258,7 @@ a, a:hover {
   width: 100%;
   top: -10px;
 }
+
 .fh5co-content-box .trainers::before {
   bottom: -10px;
   top: auto;
