@@ -1,4 +1,7 @@
-
+.parallax-window {
+  min-height: 400px;
+  background-image: url(./images/banner2.jpg);
+}
 body {
   font-family: 'Lato', sans-serif;
   overflow: hidden;

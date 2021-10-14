@@ -1,3 +1,5 @@
+/* eslint-disable no-loop-func */
+/* eslint-disable no-cond-assign */
 
 (function() {
   var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
@@ -156,7 +158,7 @@
     return this;
   };
 
-  getComputedStyleRX = /(\-([a-z]){1})/g;
+  getComputedStyleRX = /(\\-([a-z]){1})/g;
 
   this.WOW = (function() {
     WOW.prototype.defaults = {

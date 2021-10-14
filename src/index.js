@@ -17,6 +17,7 @@ import "./css/bootstrap.css";
 import "./css/bootstrap.css.map";
 import "./css/bootstrap.min.css";
 import "./css/bootstrap.min.css.map";
+import 'bootstrap';
 
 
 ReactDOM.render(

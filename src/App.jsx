@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
 import "./css/animate.css";
 import "./css/bootstrap-grid.css";
@@ -13,20 +16,20 @@ import "./css/bootstrap.css.map";
 import "./css/bootstrap.min.css";
 import "./css/bootstrap.min.css.map";
 import "bootstrap/dist/css/bootstrap.min.css";
-import banner2 from "./images/banner2.jpg";
 import azul from "./images/about-us-bg.jpg";
+
+
 
 
 function App() {
   return (
     <div className="App">
-
-    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src={banner2}>
+    
+    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="./images/banner2.jpg">
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container"> 
         <a class="navbar-brand mr-auto" href="/#"><img src="images/logo.png" alt="FoxPro"  width="60px"/></a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
-           
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>   
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"> <a class="nav-link" href="/#">Hogar</a> </li>
@@ -44,7 +47,7 @@ function App() {
   <div class="container">
     <div class="fh5co-banner-text-box">
       <div class="quote-box pl-5 pr-5 wow bounceInRight">
-        <h2> WARMYS<span>tejiendo memoria colectiva</span> </h2>
+        <h2> WARMYS<span> tejiendo memoria colectiva</span> </h2>
       </div>
       <a href="login.html" class="btn text-uppercase btn-outline-danger btn-lg mr-3 mb-3 wow bounceInUp"> INGRESA</a></div>
   </div>
