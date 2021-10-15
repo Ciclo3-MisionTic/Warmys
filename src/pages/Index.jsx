@@ -73,10 +73,10 @@ function Index() {
 <div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src={azul}>
   <div class="container">
     <div class="col-sm-6 offset-sm-6">
-      <h2 class="wow bounceInLeft" data-wow-delay=".25s">ABOUT US</h2>
+      <h2 class="wow bounceInLeft" data-wow-delay=".25s">SOBRE NOSOTROS</h2>
       <hr/>
-      <p class="wow bounceInRight" data-wow-delay=".25s">Trainers, athletes and serious clients alike are looking for the toughest, most brutally productive training techniques to spice up their workouts and provide a truly unique challenge for their body and mind. Think: one-arm push-ups, pistols, pull-ups, handstands, hanging levers and the like! If you want toeither for </p>
-      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Learn More</a> </div>
+      <p class="wow bounceInRight" data-wow-delay=".25s">Somos una empresa cuyo objetivo social es potenciar económicamente el trabajo colectivo de las mujeres indígenas del resguardo de Males del pueblo de los Pastos, que contribuyen a la preservación,   defensa y cuidado del territorio, que buscan generar ingresos para sus hogares a partir de la creación de  diversas artesanías en cuanto a tejidos (realizados en agujeta/crochet, agujones/agujas, guangas/telares), alfarería (madera, barro y cerámica), toallas ecológicas menstruales y bisutería.  </p>
+      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Aprende Mas</a> </div>
   </div>
 </div>
 
@@ -160,40 +160,40 @@ function Index() {
           <p>&copy; 2018 Foxpro. All rights reserved. Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
         </div>
       </div>
-      <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
+      <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="CONTACTO">
         <div class="form-box">
           <h4>CONTACT US</h4>
           <table class="table table-responsive d-table">
             <tr>
-              <td><input type="text" class="form-control pl-0" placeholder="NAME" /></td>
+              <td><input type="text" class="form-control pl-0" placeholder="NOMBRE" /></td>
               <td><input type="email" class="form-control pl-0" placeholder="EMAIL" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="ADDRESS" /></td>
+              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="DIRECCION" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
             </tr>
             <tr>
-              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="MESSAGES" /></td>
+              <td colspan="2"><input type="text" class="form-control pl-0" placeholder="MENSAJE" /></td>
             </tr>
             <tr>
               <td colspan="2"></td>
             </tr>
             <tr>
-              <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">SEND</button></td>
+              <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-dark">ENVIAR</button></td>
             </tr>
           </table>
         </div>
       </div>
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
-        <h5>ADDRESS</h5>
+        <h5>DIRECCION</h5>
         <p>Lorem ipsum dolor sit 
           amet, consectetuer adipiscing elit</p>
-        <h5>PHONE</h5>
+        <h5>TELEFONO</h5>
         <p>253232323232</p>
         <h5>EMAIL</h5>
         <p>email@example.com</p>
