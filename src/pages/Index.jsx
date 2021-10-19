@@ -35,7 +35,7 @@ function Index() {
             <li class="nav-item"> <a class="nav-link" href="/#">Hogar</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#about-us">Acerca de</a> </li>
             <li class="nav-item"> <a class="nav-link" href="/#">Cursos</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="#contact">Contacto</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#Contact">Contacto</a> </li>
           </ul>
           <ul class="navbar-nav ml-5">
         </ul>
@@ -160,9 +160,9 @@ function Index() {
           <p>&copy; 2018 Foxpro. All rights reserved. Design by <a href="https://freehtml5.co" target="_blank">FreeHTML5</a>.</p>
         </div>
       </div>
-      <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="CONTACTO">
+      <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="Contact">
         <div class="form-box">
-          <h4>CONTACT US</h4>
+          <h4>CONTACTO</h4>
           <table class="table table-responsive d-table">
             <tr>
               <td><input type="text" class="form-control pl-0" placeholder="NOMBRE" /></td>

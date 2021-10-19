@@ -82,11 +82,12 @@ a, a:hover {
 }
 
 .fh5co-banner-text-box a {
-  color: rgb(214, 24, 24);
+  color: rgb(250, 246, 246);
   border-color: #fcfbfb;
   border-radius: 10px;
   min-width: 150px;
   font-weight: 700;
+  background: #db3541;
 }
 
 .fh5co-banner-text-box a:hover {
