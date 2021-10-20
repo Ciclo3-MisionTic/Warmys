@@ -30,7 +30,7 @@ function Login() {
                 <input id="tab-1" type="radio" name="tab" class="sign-in" checked/>
                     <label for="tab-1" class="tab">Inicia Sesión</label>
                 <input id="tab-2" type="radio" name="tab" class="sign-up"/>
-                    <label for="tab-2" class="tab">Sign Up</label>
+                    <label for="tab-2" class="tab">REGISTRATE</label>
                 <div class="login-form">
                     <div class="sign-in-htm">
                         <div class="group">
