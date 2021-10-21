@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import "../css/ventas.css";
+=======
+import "../ventas.css"
+>>>>>>> 2cc8ef3d76875af21f1af6b052103d1e7851efbb
 import { Link } from 'react-router-dom';
 
 
@@ -11,12 +15,12 @@ function Ventas() {
                         <h1>Registrar Nueva Venta</h1>
                         
                         
-                            <div class="grupo">
+                            <div className="grupo">
                                 <input id="idVenta"  placeholder="ingrese id venta"/><span class="barra"></span>
                                 <label>Ingrese id Venta</label>
                             </div>
 
-                            <div class="grupo">
+                            <div className="grupo">
                                 <input type="texto"  placeholder="ingrese valor"/><span class="barra"></span>
                                 <label>Valor Venta</label>
                             </div>  

@@ -1,4 +1,6 @@
-import '../App.css';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
+import '../Index.css';
 import "../css/animate.css";
 import "../css/bootstrap-grid.css";
 import "../css/bootstrap-grid.css.map";
@@ -76,7 +78,7 @@ function Index() {
       <h2 class="wow bounceInLeft" data-wow-delay=".25s">SOBRE NOSOTROS</h2>
       <hr/>
       <p class="wow bounceInRight" data-wow-delay=".25s">Somos una empresa cuyo objetivo social es potenciar económicamente el trabajo colectivo de las mujeres indígenas del resguardo de Males del pueblo de los Pastos, que contribuyen a la preservación,   defensa y cuidado del territorio, que buscan generar ingresos para sus hogares a partir de la creación de  diversas artesanías en cuanto a tejidos (realizados en agujeta/crochet, agujones/agujas, guangas/telares), alfarería (madera, barro y cerámica), toallas ecológicas menstruales y bisutería.  </p>
-      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown">Aprende Mas</a> </div>
+      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown"/> <a>Aprende Mas</a> </div>
   </div>
 </div>
 
