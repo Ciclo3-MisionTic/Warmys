@@ -24,8 +24,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 =======
-node_modules
->>>>>>> origin/main
-=======
-node_modules
->>>>>>> main
+
