@@ -1,21 +1,8 @@
-import "../css/ventas.css"
-import "../css/animate.css";
-import "../css/bootstrap-grid.css";
-import "../css/bootstrap-grid.css.map";
-import "../css/bootstrap-grid.min.css";
-import "../css/bootstrap-grid.min.css.map";
-import "../css/bootstrap-reboot.css";
-import "../css/bootstrap-reboot.css.map";
-import "../css/bootstrap-reboot.min.css";
-import "../css/bootstrap-reboot.min.css.map";
-import "../css/bootstrap.css";
-import "../css/bootstrap.css.map";
-import "../css/bootstrap.min.css";
-import "../css/bootstrap.min.css.map";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../ventas.css"
+import { Link } from 'react-router-dom';
 
 
-function ventas() {
+function Ventas() {
     return (
       <div>
   
@@ -24,12 +11,12 @@ function ventas() {
                         <h1>Registrar Nueva Venta</h1>
                         
                         
-                            <div class="grupo">
+                            <div className="grupo">
                                 <input id="idVenta"  placeholder="ingrese id venta"/><span class="barra"></span>
                                 <label>Ingrese id Venta</label>
                             </div>
 
-                            <div class="grupo">
+                            <div className="grupo">
                                 <input type="texto"  placeholder="ingrese valor"/><span class="barra"></span>
                                 <label>Valor Venta</label>
                             </div>  
@@ -94,4 +81,4 @@ function ventas() {
     );
   }
   
-  export default ventas;
+  export default Ventas;

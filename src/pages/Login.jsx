@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import '../css/login.css';
 import "../css/animate.css";
 import "../css/bootstrap-grid.css";
@@ -21,7 +22,7 @@ import { Link } from 'react-router-dom';
 
 function Login() {
   return (
-    <div>
+    <div className="Log" >
 
         <div class="end"><img src="/warmys/images/logo copy.png" alt=""/>
         </div>
