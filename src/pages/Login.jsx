@@ -22,7 +22,7 @@ import { Link } from 'react-router-dom';
 
 function Login() {
   return (
-    <div className="Log" >
+    <div className="root" >
 
         <div class="end"><img src="/warmys/images/logo copy.png" alt=""/>
         </div>

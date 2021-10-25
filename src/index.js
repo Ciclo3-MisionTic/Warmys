@@ -3,21 +3,7 @@ import ReactDOM from 'react-dom';
 import './Index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/animate.css";
-import "./css/bootstrap-grid.css";
-import "./css/bootstrap-grid.css.map";
-import "./css/bootstrap-grid.min.css";
-import "./css/bootstrap-grid.min.css.map";
-import "./css/bootstrap-reboot.css";
-import "./css/bootstrap-reboot.css.map";
-import "./css/bootstrap-reboot.min.css";
-import "./css/bootstrap-reboot.min.css.map";
-import "./css/bootstrap.css";
-import "./css/bootstrap.css.map";
-import "./css/bootstrap.min.css";
-import "./css/bootstrap.min.css.map";
-import 'bootstrap';
+
 
 
 

@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Login from "./pages/Login";
 import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 import Index from './pages/Index';
+import Ventas from "./pages/ventas";
 
 
 
@@ -32,7 +33,11 @@ function App() {
           
           <Route path="/login">
             <Login/>
-          </Route>z
+          </Route>
+
+          <Route path="/ventas">
+            <Ventas/>
+          </Route>
 
         
           <Route path="/">

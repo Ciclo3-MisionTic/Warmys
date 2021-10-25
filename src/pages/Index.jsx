@@ -25,9 +25,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Index() {
   return (
-    <div className="App">
+    <div className="root">
     
-    <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="../images/banner2.jpg">
+    <div class="enca">
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container"> 
         <a class="navbar-brand mr-auto" href="/#"><img src="images/logo.png" alt="FoxPro"  width="60px"/></a> 
@@ -72,7 +72,7 @@ function Index() {
 </div>
 
 
-<div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src={azul}>
+<div id="about-us">
   <div class="container">
     <div class="col-sm-6 offset-sm-6">
       <h2 class="wow bounceInLeft" data-wow-delay=".25s">SOBRE NOSOTROS</h2>
