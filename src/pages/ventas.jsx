@@ -5,53 +5,54 @@ import { Link } from 'react-router-dom';
 
 function Ventas() {
     return (
-      <div className="body3">
+      <div className="new">
   
-            <form action="">
+            <form action="form">
                     <div class="cel">
                         <h1>Registrar Nueva Venta</h1>
                         
                         
                             <div className="grupis">
                                 <input id="idVenta"  placeholder="ingrese id venta"/><span class="barra"></span>
-                                <label>Ingrese id Venta</label>
+                                <label1>Ingrese id Venta</label1>
                             </div>
 
                             <div className="grupis">
                                 <input type="texto"  placeholder="ingrese valor"/><span class="barra"></span>
-                                <label>Valor Venta</label>
+                                <label1>Valor Venta</label1>
                             </div>  
 
                             <div class="grupis">
                                 <input id="idVenta"  placeholder="ingrese id"/><span class="barra"></span>
-                                <label>Id Producto</label>
+                                <label1>Id Producto</label1>
                             </div>
 
                             <div class="grupis">
                                 <input id="idVenta"  placeholder="ingrese cantidad"/><span class="barra"></span>
-                                <label>Cantidad del Producto</label>
+                                <label1>Cantidad del Producto</label1>
                             </div>
 
                             <div class="grupis">
                                 <input id="idVenta"  placeholder="ingrese precio"/><span class="barra"></span>
-                                <label>Precio und. Producto</label>
+                                <label1>Precio und. Producto</label1>
                             </div>
 
                             <div class="grupis">
                                 <input type="date"  placeholder="ingrese fecha"/><span class="barra"></span>
-                                <label>Fecha de Venta</label>
+                                <label1>Fecha de Venta</label1>
                             </div>
 
                             <div class="grupis">
                                 <input id="idVenta"  placeholder="ingrese no."/><span class="barra"></span>
-                                <label>Documento de identificacion</label>
+                                <label1>Documento de identificacion</label1>
                             </div>
 
                             <div class="grupis">
                                 <input id="idVenta"  placeholder="ingrese nombre"/><span class="barra"></span>
-                                <label>Nombre Cliente</label>
+                                <label1>Nombre Cliente</label1>
                             </div>
                     </div>
+                    <button type="submit" onclick="myFunction()">Registar Venta</button>
                 </form>
 
 
@@ -61,7 +62,7 @@ function Ventas() {
             <script src="app.js"></script>
 
 
-            <button id="cir" type="submit" onclick="myFunction()">Registar Venta</button>
+            
 
             <p id="linea0"></p>
             <p id="linea1"></p>

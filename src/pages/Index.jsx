@@ -25,8 +25,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Index() {
   return (
-    <div className="root">
-    
+    <div className="body1">
+
     <div class="enca">
     <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container"> 

@@ -20,6 +20,7 @@ import Login from "./pages/Login";
 import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 import Index from './pages/Index';
 import Ventas from "./pages/ventas";
+import Admin from "./pages/admin";
 
 
 
@@ -37,6 +38,10 @@ function App() {
 
           <Route path="/ventas">
             <Ventas/>
+          </Route>
+
+          <Route path="/admin">
+            <Admin/>
           </Route>
 
         
