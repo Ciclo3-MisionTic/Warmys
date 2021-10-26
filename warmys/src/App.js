@@ -1,5 +1,5 @@
 import './App.css';
-import './Styles/estiloVtas.css';
+import './Styles/estilosVtas.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./css/animate.css";
 import "./css/bootstrap-grid.css";
@@ -20,7 +20,7 @@ import Login from 'pages/Login';
 import Pdtos from 'pages/Admin/Pdtos';
 import Roles from 'pages/Admin/Roles';
 import Vtas from 'pages/Admin/Vtas';
-import ventas from 'pages/ventas';
+import Ventas from 'pages/ventas';
 import RegistroVtas from 'pages/Admin/vtas/RegistroVtas';
 import TablaVtas from './pages/Admin/vtas/TablaVtas';
 import PublicLayout from 'layouts/PublicLayout';
@@ -51,7 +51,7 @@ function App() {
                   <Roles />
                 </Route>
                 <Route path ="/Admin/ventas">
-                  <ventas />
+                  <Ventas />
                 </Route>
               </Switch>
             </PrivateLayout>
