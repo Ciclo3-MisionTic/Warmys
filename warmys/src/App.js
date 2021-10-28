@@ -18,57 +18,69 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Index from 'pages/Index';
 import Login from 'pages/Login';
 import Pdtos from 'pages/Admin/Pdtos';
-import Roles from 'pages/Admin/Roles';
+import RegistroPdtos from 'pages/Admin/RegistroPdtos';
+import Usuarios from 'pages/Admin/Roles';
+import Perfil from 'pages/Admin/Perfil';
 import Vtas from 'pages/Admin/Vtas';
+import MVtas from 'pages/Admin/MVtas';
+import Ventas1 from 'pages/Admin/Ventas1';
 import Ventas from 'pages/ventas';
-import RegistroVtas from 'pages/Admin/vtas/RegistroVtas';
-import TablaVtas from './pages/Admin/vtas/TablaVtas';
-import PublicLayout from 'layouts/PublicLayout';
+import RegistroVtas from 'pages/Admin/RegistroVtas';
+import TablaVtas from './pages/Admin/TablaVtas';
 import PrivateLayout from 'layouts/PrivateLayouts';
-import AuthLayout from 'layouts/AutheLayout';
+
+
 
 function App() {
   return (
     <div>
       <Router>
         <Switch>
-          <Route path= {['/Admin/Pdtos', '/Admin/Vtas','./pages/Admin/vtas/RegistroVtas', './pages/Admin/vtas/TablaVtas','pages/ventas', '/Admin/Roles']}>
+          '<Route path= {['/Admin/Pdtos','/Admin/RegistroPdtos','/Admin/Vtas', '/Admin/MVtas','/Admin/Ventas1','/Admin/RegistroVtas', '/Admin/TablaVtas','/ventas', '/Admin/Roles', '/Admin/Perfil']}>
             <PrivateLayout>
               <Switch>
                 <Route path ="/Admin/Pdtos">
+                  <RegistroPdtos />
+                </Route>
+                <Route path ="/Admin/RegistroPdtos">
                   <Pdtos />
                 </Route>
                 <Route path ="/Admin/Vtas">
                   <Vtas />
                 </Route>
-                <Route path ='pages/Admin/vtas/RegistroVtas'>
+                <Route path ="/Admin/RegistroVtas">
                   <RegistroVtas />
                 </Route>
-                <Route path ='./pages/Admin/vtas/TablaVtas'>
+                <Route path ="/Admin/TablaVtas">
                   <TablaVtas />
                 </Route>
-                <Route path ="/Admin/Roles">
-                  <Roles />
+                <Route path ="/Admin/MVtas">
+                  <MVtas />
                 </Route>
-                <Route path ="/Admin/ventas">
+                <Route path ="/Admin/Ventas1">
+                  <Ventas1 />
+                </Route>
+                <Route path ="/Admin/Roles">
+                  <Usuarios />
+                </Route>
+                <Route path ="/Admin/Perfil">
+                  <Perfil />
+                </Route>
+                <Route path ="/ventas">
                   <Ventas />
                 </Route>
               </Switch>
             </PrivateLayout>
           </Route>
-          <Route path= {['/pages/Login']}>
-            <AuthLayout>
-              <Route path ="/pages/Login">
+          <Route path = {['/Login']}>
+              <Route path ="/Login">
                 <Login />
               </Route>
-            </AuthLayout>
-          </Route>
-          <Route path = {['/']}>
-            <PublicLayout>
-              <Route path ="/">
-                <Index />
               </Route>
-            </PublicLayout>
+          <Route path = {['/']}>
+            <Route path ="/">
+                <Index />
+            </Route>
           </Route>
         </Switch>
       </Router>

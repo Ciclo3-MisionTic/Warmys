@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import axios from 'axios';
+import { nanoid } from 'nanoid';
 import { ToastContainer, toast } from 'react-toastify';
 import { Dialog, Tooltip } from '@material-ui/core';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +12,10 @@ const TablaVtas = ({listadoVtas, setMostrarTablaActualizada}) => {
 
     const [buscar,setBuscar] = useState('');
     const [listaFiltrada, setListaFiltrada] = useState (listadoVtas);
+    const [mostrarVtas, setMostrarVtas] =useState (false);
+    const [textoBotonListar, setTextoBotonListar] = useState('cerrar');
+    const [data, setData] = useState ([]);
+   
 
      //Funciones para ingreso de informacion con evento
   
@@ -62,7 +67,7 @@ const TablaVtas = ({listadoVtas, setMostrarTablaActualizada}) => {
                 <tbody>
                 {listaFiltrada.map ((vtas) => {
                     return(
-                        <FilaVtas key = {vtas._id} vtas = {vtas} setMostrarTablaActualizada ={setMostrarTablaActualizada} />
+                        <FilaVtas key = {nanoid()} vtas = {vtas} setMostrarTablaActualizada ={setMostrarTablaActualizada} />
                     );
                     })
                     }

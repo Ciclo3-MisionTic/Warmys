@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
-import '../Index.css';
+import '../index.css';
 import "../css/animate.css";
 import "../css/bootstrap-grid.css";
 import "../css/bootstrap-grid.css.map";
@@ -17,10 +17,6 @@ import "../css/bootstrap.min.css.map";
 import azul from "../images/about-us-bg.jpg";
 import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
-
-
 
 
 function Index() {
@@ -220,3 +216,4 @@ function Index() {
 }
 
 export default Index;
+

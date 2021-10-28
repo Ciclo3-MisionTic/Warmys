@@ -10,8 +10,10 @@ body {
   
   /* Tamaño de navbar */
   .navbar {
-    min-height: 15vh;
-    background-color: blue;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   /*Menu de navegación */

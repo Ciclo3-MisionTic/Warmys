@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import TablaVtas from 'components/vtas/TablaVtas';
+import { Dialog, Tooltip } from '@material-ui/core';
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
  
@@ -64,8 +63,8 @@ const Vtas = () => {
             <main>
                 <nav className = "topnav">
                     <h1>Ventas</h1>
-                    <Link to ='pages/Admin/vtas/RegistroVtas'> <button className = "topButton1">Registrar</button></Link>                   
-                    <Link to='./pages/Admin/vtas/TablaVtas'> <button className = "topButton1">Listar</button></Link>
+                    <Link to ='/Admin/RegistroVtas'> <button className = "topButton1">Registrar</button></Link>                   
+                    <Link to='/Admin/TablaVtas'> <button className = "topButton1">Listar</button></Link>
                 </nav>
                
             </main>

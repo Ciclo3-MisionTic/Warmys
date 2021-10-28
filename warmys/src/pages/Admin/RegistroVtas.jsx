@@ -179,11 +179,11 @@ const RegistroVtas = ({propMostrarTablaVtas, listadoVtas, propAgregarVta}) => {
                                 </label>
                                 <label htmlFor="estado"  className="col" >
                                     Estado:
-                                <select name="estado"  defaultValue = {0} className = "form-control"   required>
+                                <select name="estado"  onChange = {cambioEstado} defaultValue = {0} className = "form-control"   required>
                                     <option disabled value ={0} >Seleccione</option>
-                                    <option value={estado} onChange = {cambioEstado}>En proceso</option>
-                                    <option value={estado} onChange = {cambioEstado}>Cancelada</option>
-                                    <option value={estado} onChange = {cambioEstado}>Entregada</option>
+                                    <option >En proceso</option>
+                                    <option >Cancelada</option>
+                                    <option >Entregada</option>
                                 </select>
                                 </label>
                             </li>
@@ -204,11 +204,11 @@ const RegistroVtas = ({propMostrarTablaVtas, listadoVtas, propAgregarVta}) => {
                                     Tipo de Documento de Identidad:
                                     <select defaultValue={0} name="tipoId" className = "form-control"    required>
                                     <option disabled value={0}>Seleccione</option>
-                                    <option value={tipoIdCliente} onChange = {cambioTipoIdCliente} >Cédula de ciudadania</option>
-                                    <option value={tipoIdCliente} onChange = {cambioTipoIdCliente} >Cédula de Extranjeria</option>
-                                    <option value={tipoIdCliente} onChange = {cambioTipoIdCliente}>Tarjeta de Identidad</option>
-                                    <option value={tipoIdCliente} onChange = {cambioTipoIdCliente} >Pasaporte</option>
-                                    <option value={tipoIdCliente} onChange = {cambioTipoIdCliente} >NIT</option>
+                                    <option  onChange = {cambioTipoIdCliente} >Cédula de ciudadania</option>
+                                    <option onChange = {cambioTipoIdCliente} >Cédula de Extranjeria</option>
+                                    <option  onChange = {cambioTipoIdCliente}>Tarjeta de Identidad</option>
+                                    <option  onChange = {cambioTipoIdCliente} >Pasaporte</option>
+                                    <option  onChange = {cambioTipoIdCliente} >NIT</option>
                                     </select>
                                 </label>
                                 <label htmlFor = "idCliente" className = "col">
